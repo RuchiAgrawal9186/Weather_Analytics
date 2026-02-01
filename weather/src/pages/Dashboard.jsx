@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import UnitToggle from "../Components/UnitToggle";
 import { getWeather } from "../store/weather/weatherSlice";
 
-const DEFAULT_CITIES = ["Dahod", "Delhi", "Mumbai", "Bangalore"];
+const DEFAULT_CITIES = ["Dahod", "Delhi", "Mumbai", "Bangalore", "Vadodara"];
 const Dashboard = () => {
   const dispatch = useDispatch();
   const unit = useSelector((s) => s.settings.unit);
