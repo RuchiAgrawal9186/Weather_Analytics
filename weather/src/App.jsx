@@ -1,14 +1,15 @@
-
-import './App.css'
+import { Outlet } from "react-router-dom";
+import "./App.css";
+import Dashboard from "./pages/Dashboard";
+import NavBar from "./Components/NavBar";
 
 function App() {
- 
-
   return (
     <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+      <NavBar></NavBar>
+      <Outlet></Outlet>
     </>
   );
 }
 
-export default App
+export default App;
