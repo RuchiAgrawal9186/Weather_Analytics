@@ -63,11 +63,17 @@ Interactive charts built using **Recharts**:
 
 ---
 
-### 🛡 Error Handling & UX
-- City-level error handling (e.g., "City not found")
-- No app crashes due to partial or missing data
-- Global **Error Boundary** for unexpected runtime errors
-- Clear loading, error, and empty states
+### user interface
+
+# Dashboard
+![alt text](image.png)
+
+# City Weather details Page
+![alt text](image-1.png)
+
+# favorites page
+![alt text](image-2.png)
+
 
 ---
 
